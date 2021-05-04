@@ -11,9 +11,9 @@ require("dotenv").config();
 Levels.setURL("mongodb://127.0.0.1:27017")
 
 const bot = new Client();
-const THRESHOLD_LEVEL = 3;
-const LEVEL_NEW = 4;
-const LEVEL_OLD = 3;
+const THRESHOLD_LEVEL = 1;
+const LEVEL_NEW = 1;
+const LEVEL_OLD = 0;
 const PREFIX = "!";
 
 bot.on("ready", () => {
